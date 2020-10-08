@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <title>Contact list</title>
     </head>
     <body>
 <table border="1">
@@ -39,17 +40,19 @@
 <p><input type="text" placeholder="Введите Ваше имя"></p>
 <p><input type="text" placeholder="Введите Вашу фамилию"></p>
 <h1>Какой ваш пол?</h1>
-<p><input name="female" type="radio">М</p>
-<p><input name="female" type="radio">Ж</p>
+<p><input name="gender" type="radio" checked>М</p>
+<p><input name="gender" type="radio">Ж</p>
 <textarea cols="30" rows="10" placeholder="Напишите свой вопрос"></textarea>
-<p><select>
-    <option>Выберите город</option>
-    <option>Киев</option>
-    <option>Харьков</option>
-    <option>Львов</option>
-    <option>Черкассы</option>
-    <option>Одесса</option>
-</select></p>
+<p>
+    <select name="city">
+    <option selected value="t1" disabled>Выберите город</option>
+    <option value="t2">Киев</option>
+    <option value="t3">Харьков</option>
+    <option value="t4">Львов</option>
+    <option value="t5">Черкассы</option>
+    <option value="t6">Одесса</option>
+</select>
+</p>
 <p>Выбор языка:</p>
 <p><input type="checkbox">Русский</p>
 <p><input type="checkbox">Українська</p>
